@@ -1,0 +1,39 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a2647;
+}
+
+.login{
+    /* width: 360px; */
+    width: 25rem;
+    height: min-content;
+    padding: 1.7rem;
+    border-radius: .8rem;
+    background-color: #fff;
+}
+
+.login h1{
+    font-size: 1.7rem;
+    margin-bottom: 1.6rem;
+}
+
+.login form{
+    font-size: 1.2rem;
+}
+
+.login form .form-group{
+    margin-bottom: 1.2rem;
+}
+
+.login form input[type="submit"]{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
